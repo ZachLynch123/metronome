@@ -50,7 +50,8 @@ class Metronome extends Component {
             // Stop the timer
             clearInterval(this.timer);
             this.setState({
-              playing: false
+              playing: false,
+              count: 1
             });
           } else {
             // Start a timer with the current BPM
